@@ -1,0 +1,334 @@
+*
+{
+	margin:0;
+}
+
+body{
+	/*background: #f2f2f2;*/
+	background-color:#02010a;
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+	background-color: black;
+  font-family: "Dancing Script";
+}
+
+#contenido
+{
+	width: 100%;
+  margin: 0px;
+
+
+
+
+
+}
+header h1{
+	 text-shadow: 2px #02010a;
+}
+header
+{
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	background-color: #5b7989;
+	color:white;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+#contenido_menu{
+	width: 50%;
+
+}
+#contenido_header_titulo{
+	width: 50%;
+}
+
+#contenido_menu ul{
+
+	list-style-type: none;
+  padding: 2px;
+
+}
+#contenido_menu ul li{
+	display: inline;
+ display: inline-block; padding: 0 5px;
+ margin-top: 10px;
+ font-size: 20px;
+}
+
+#contenido_menu ul li a{
+	color: white;
+}
+#contenido_menu ul{
+		color: white;
+}
+
+
+article
+{
+	box-sizing: border-box;
+	float:left;
+	width: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 400px;
+
+}
+/*.hola{
+	width: 80%;
+	background-color: red;
+	margin:auto;
+	height: 300px;
+}*/
+section{
+	display: flex;
+  flex-flow: row wrap;
+	width: 100%;
+	background-color: #d5c75f;
+	border:1px;
+  margin: 0 auto;
+	justify-content:space-around;
+
+
+
+
+}
+.imagen_principal{
+width: 100%;
+height: 100%;
+margin-top: 0px;
+
+
+}
+img{
+	width: 80%;
+	height: 80%;
+	box-shadow: 2px 2px 2px 2px #02010a;
+	margin-top: 10px;
+}
+/*
+#columna2 img:active{
+	transform: rotate(10deg);
+}
+#columna2 img:hover{
+	-webkit-box-shadow: 2px 2px 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px 2px 2px #82c3a6;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+#columna3 img:active{
+	transform: translate(20px, 5px);
+}
+#columna3 img:hover{
+	-webkit-box-shadow: 2px 2px 2px 2px #82c3a6;
+  -moz-box-shadow: 2px 2px 2px 2px #82c3a6;
+   box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+*/
+/*.hola{
+	margin-top: 30px;
+}*/
+.img_8{
+	-webkit-filter:blur(30px);
+	filter: blur(30px);
+}
+	.img_2{
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+		.img_3{
+			-webkit-filter:sepia(90%);
+			filter: sepia(90%);
+		}
+			.img_5{
+				}
+				.img_6{			-webkit-filter:grayscale(100%);
+							filter: grayscale(100%);}
+					.img_7{
+						-webkit-filter:grayscale(100%);
+						filter: grayscale(100%);
+					}
+#columna4
+{
+	width: 100%;
+	background-color: #C6d5c5;
+	height: 200px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	/*padding-top: 30px;*/
+	font-size: 15px;
+
+}
+
+#columna4 ul li{
+	list-style-type: none;
+}
+#columna4 h1{
+	padding-left: 40px;
+}
+#Contacto{
+	width: 25%;
+	margin-bottom: 30px;
+margin-top: 10px;
+}
+#Terminos{
+	width: 25%;
+  margin-bottom: 20px;
+	margin-top: 10px;
+}
+#Redes_Sociales{
+	width: 25%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+#Derechos{
+	width: 25%;
+  margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+
+	#columna8
+	{
+	background-color: #d5c75f;
+	width: 33.3%;
+
+	}
+	#columna2
+	{
+	background-color: #d5c75f;
+	width: 33.3%;
+  border: 1px;
+
+
+	}
+	#columna3
+	{
+	background-color:  #d5c75f;
+		width: 33.3%;
+	border: 1px;
+
+	}
+	#columna5
+	{
+	background-color:  #d5c75f;
+		width: 33.3%;
+	border: 1px;
+
+	}
+	#columna6
+	{
+	background-color:  #d5c75f;
+	width: 33.3%;
+	border: 1px;
+
+	}
+	#columna7
+	{
+	background-color:  #d5c75f;
+	width: 33.3%;
+	border: 1px;
+
+	}
+
+
+
+@media screen and (max-width: 960px){
+
+	#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna4{
+		height: 600px;
+	}
+	#contenido_header_titulo{
+		width: 100%;
+	}
+	#contenido_menu{
+		width: 100%;
+	}
+	#columna8
+	{
+	width: 100%;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+	#columna5
+	{
+	width: 100%;
+	}
+	#columna6
+	{
+	width: 100%;
+	}
+	#columna7
+	{
+	width: 100%;
+	}
+	#Contacto{
+		width: 100%;
+		height: 100px;
+		justify-content: center;
+	}
+
+#Terminos{
+			width: 100%;
+			height: 100px;
+			justify-content: center;
+}
+#Redes_Sociales{
+			width: 100%;
+				height: 100px;
+				justify-content: center;
+}
+#Derechos{
+			  width: 100%;
+				height: 100px;
+				justify-content: center;
+}
+
+
+	header
+	{
+	width:100%;
+	}
+footer{
+	width: 100%;
+}
+}
